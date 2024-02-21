@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Zachary Traylor"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me
+      # can sub "about.qmd" for any Projects or any page you want when we you add more files
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
